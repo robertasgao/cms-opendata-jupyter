@@ -36,3 +36,10 @@ And then you can enter and exit the environment with
 conda activate pyroot
 conda deactivate pyroot
 ```
+
+ 3. ** Download the datafile (~3GB) **
+
+ After installing `ROOT`, open a terminal and execute the following command:
+
+ `xrdcp root://eospublic.cern.ch//eos/root-eos/cms_opendata_2012_nanoaod/Run2012B_DoubleMuParked.root .`
+
