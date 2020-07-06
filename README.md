@@ -43,3 +43,8 @@ conda deactivate pyroot
 
  `xrdcp root://eospublic.cern.ch//eos/root-eos/cms_opendata_2012_nanoaod/Run2012B_DoubleMuParked.root .`
 
+To run the notebook, exceute the following command:
+
+`jupyter notebook`
+
+and open the notebook in the browser.
