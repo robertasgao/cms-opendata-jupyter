@@ -23,6 +23,7 @@ I would recommend using the python3 version.
 ```
 conda install -c conda-forge root
 conda install -c conda-forge notebook
+conda install matplotlib
 ```
 
 `ROOT` may have some trouble working with `python3`. You can create a virtual environment specifying root with `python2.7` like this:
@@ -49,3 +50,13 @@ To run the notebook, exceute the following command:
 `jupyter notebook`
 
 and open the notebook in the browser.
+
+ 4. **Running Jupyter Notebook**
+
+ in order to run the notebook, execute the following command:
+
+ root --notebook <notebook_name>
+
+ To run this notebook, execute:
+
+ root --notebook 01-Introduction.ipynb
