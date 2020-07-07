@@ -28,6 +28,7 @@ conda install -c conda-forge notebook
 `ROOT` may have some trouble working with `python3`. You can create a virtual environment specifying root with `python2.7` like this:
 
 ```
+conda config --env --add channels conda-forge
 conda create --name pyroot root python=2.7
 ```
 
@@ -43,3 +44,8 @@ conda deactivate pyroot
 
  `xrdcp root://eospublic.cern.ch//eos/root-eos/cms_opendata_2012_nanoaod/Run2012B_DoubleMuParked.root .`
 
+To run the notebook, exceute the following command:
+
+`jupyter notebook`
+
+and open the notebook in the browser.
