@@ -28,6 +28,7 @@ conda install -c conda-forge notebook
 `ROOT` may have some trouble working with `python3`. You can create a virtual environment specifying root with `python2.7` like this:
 
 ```
+conda config --env --add channels conda-forge
 conda create --name pyroot root python=2.7
 ```
 
