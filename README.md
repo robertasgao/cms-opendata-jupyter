@@ -42,8 +42,8 @@ conda deactivate pyroot
 
  in order to run the notebook, execute the following command:
 
- root --notebook <notebook_name>
+ ```root --notebook <notebook_name>```
 
  To run this notebook, execute:
 
- root --notebook 01-Introduction.ipynb
+ ```root --notebook 01-Introduction.ipynb```
