@@ -2,6 +2,11 @@
 Jupyter notebooks demo using CMS opendata
 
 
+## Binder
+
+A docker image of this exercise is available on binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kakwok/cms-opendata-jupyter/master)
+
 ## Getting the software ready
 
  1. **Anaconda**
