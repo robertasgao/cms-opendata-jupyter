@@ -1,0 +1,7 @@
+name: pyroot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - root
+  - python=2.7
